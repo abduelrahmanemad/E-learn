@@ -1,0 +1,46 @@
+3201,3101,3001,3102,3002,17200,19200,1125,1313,20106,19301,
+************************************************************************
+DepartmentCode,DepartmentName
+,,
+cmp,Computer Engineering,
+cve,Civil Engineering,
+elc,Communication and Electronics Engineering,
+epe,Electrical Power Engineering,
+mec,Mechanical Engineering,
+sbe,Systems and Biomedical Engineering,
+************************************************************************
+adminID,adminFirstName,adminLastName,adminEmail,adminPhone,adminGender,adminAge,adminUsername,adminPassword
+1,Abdallah,Magdy,ams@gmail.com,+201200326662,Male,26,AMS,admin123
+2,Abdelrahman,Emad,ams@gmail.com,+201200326662,Male,26,SHOYO,admin123
+3,Ahmed,Hesham,ah@kandel.com,+201200324252,Male,54,AHK,admin123
+4,Mohamed,Moustafa,mo@mo.com,+201543454543,Male,24,HACK,admin123
+************************************************************************
+courseID,courseName,lectureDay,lectureTime,lectureHall,courseGrade,courseDepartment,[courseStudent],[courseStaff]
+10,Data Structure,3,2,3201,125,cmp,2000-110-2001-100-2002-120-2003-65-2004-95-,300-301-
+11,Maths,5,0,20106,100,elc,2000-44-2004-89-2007-73-2008-60-2009-43-,302-303-307-
+12, Measurements,0,0,17200,100,sbe,2000-30-2001-47-2002-73-2003-85-2008-90-2009-95-,302-304-
+13,Anatomy,3,2,3101,100,sbe,2005-89-2006-93-2007-94-2008-77-,305-
+************************************************************************
+studentID,studentFirstName,studentLastName,studentEmail,studentPhone,studentGender,studentAge,studentYear,studentDepartment,[studentCourses]
+2000,Abdallah,Magdy,ams@gm.com,+201200326662,Male,20,2,sbe,10-110-11-44-12-30-
+2001,Omar,Emad,oe@g.com,+201235343453,Male,19,3,cmp,10-100-12-47-
+2002,Omar,Atef,oah@g.com,+201523434234,Male,17,0,,10-120-12-73-
+2003,Ziad,Ahmed,z@gmail.com,+201156453534,Male,18,2,mec,10-65-12-85-
+2004,Omar,Nabil,ona@elearn.net,+201054583948,Male,24,4,epe,10-95-11-89-
+2005,Abdelrahman,Emad,ae@ae.com,+201120453839,Male,18,2,sbe,13-89-
+2006,Sara,Ahmed,sa@g.com,+201243453432,Female,17,0,,13-93-
+2007,Salma,Ahmed,sal@g.com,+201534343434,Female,21,2,sbe,11-73-13-94-
+2008,Anas,Hussein,anoos@g.com,+201230434355,Male,21,4,cve,11-60-12-90-13-77-
+2009,Mariam,Mohamed,mo@g.com,+201154343563,Female,20,3,mec,11-43-12-95-
+2010,Menna,Ahmed,me@ah.com,+201154233444,Female,17,0,,
+************************************************************************
+staffID,staffFirstName,staffLastName,staffEmail,staffPhone,staffGender,staffAge,staffPosition,staffDepartment,[staffCourses]
+300,Ahmed,Hesham,ah@he.com,+201243434343,Male,54,p,sbe,10-
+301,Mohamed,Moustafa,mo@moustafa.com,+201153343433,Male,24,t,cmp,10-
+302,Abdelrahman,Hesham,body@hesham.com,+201243435334,Male,22,t,elc,11-12-
+303,Manal,Abdelwahed,manal@eng.com,+201153434324,Male,56,p,epe,11-
+304,Sherif,Samy,sherif@eng.com,+201545332343,Male,49,p,mec,12-
+305,Nancy,Fouad,na@teb.com,+201243435333,Female,40,p,sbe,13-
+306,Mohamed,Islam,mo@mo.com,+201243043434,Male,58,p,epe,
+307,Sherif,Abdelazeez,sh@sh.com,+201139532892,Male,26,t,elc,11-
+************************************************************************
